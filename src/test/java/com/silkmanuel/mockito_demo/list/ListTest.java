@@ -34,8 +34,6 @@ public class ListTest {
         when(mockList.get(0)).thenReturn("SomeString").thenReturn("Item 2").thenReturn("Item 3");
         assertEquals("SomeString", mockList.get(0));
         assertEquals(null, mockList.get(1));
-        // assertEquals("Item 3", mockList.get(0));
-        // assertEquals("Item 3", mockList.get(0));
     }
     
     @Test
